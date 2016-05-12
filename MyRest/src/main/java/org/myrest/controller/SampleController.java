@@ -25,7 +25,7 @@ public class SampleController {
 	@RequestMapping("/helloName")
 	@ResponseBody
 	String helloName(String name) {
-		return "Hello1 " + name;
+		return "Hello " + name;
 	}
 
 	public static void main(String[] args) {
