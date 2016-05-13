@@ -1,9 +1,9 @@
-package org.myrest.controller;
+package org.sensorservice.controller;
 
 import java.net.URISyntaxException;
 import java.util.List;
 
-import org.myrest.data.ParticleVariableResponse;
+import org.sensorservice.data.ParticleVariableResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.SpringApplication;

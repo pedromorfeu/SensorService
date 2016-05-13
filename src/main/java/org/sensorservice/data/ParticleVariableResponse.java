@@ -1,4 +1,4 @@
-package org.myrest.data;
+package org.sensorservice.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
