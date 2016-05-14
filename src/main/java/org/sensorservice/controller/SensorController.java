@@ -28,8 +28,8 @@ public class SensorController {
   @Autowired
   public SensorController(ApplicationArguments args) {
     List<String> nonOptionArgs = args.getNonOptionArgs();
-    deviceId = nonOptionArgs.get(0);
-    accessToken = nonOptionArgs.get(1);
+    deviceId = nonOptionArgs.get(1);
+    accessToken = nonOptionArgs.get(2);
   }
 
   @RequestMapping("/sensor/temperature")
