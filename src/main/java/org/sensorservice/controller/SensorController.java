@@ -17,8 +17,6 @@ import org.springframework.web.client.RestClientException;
 @EnableCaching
 public class SensorController {
 
-	private static final String URL = "https://api.particle.io/v1/devices/{device_id}/temp/?access_token={access_token}";
-
 	@Autowired
 	private SensorService sensorService;
 
