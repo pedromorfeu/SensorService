@@ -26,6 +26,12 @@ public class SensorController {
 		return sensorService.getTemperature();
 	}
 
+	@RequestMapping("/sensor/humidity")
+	@ResponseBody
+	double humidity() throws RestClientException, URISyntaxException, InterruptedException {
+		return sensorService.getHumidity();
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SensorController.class, args);
 	}

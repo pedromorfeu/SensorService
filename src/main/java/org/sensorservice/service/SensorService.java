@@ -8,6 +8,8 @@ public interface SensorService {
 
 	public double getTemperature() throws RestClientException, URISyntaxException, InterruptedException;
 
+	public double getHumidity() throws RestClientException, URISyntaxException, InterruptedException;
+
 	public void setAccessToken(String string);
 
 	public void setDeviceId(String string);
